@@ -67,7 +67,7 @@ python3 snap.py -l file.snap
 ```
 
 #### Приклади
-- Зробіти знімок усієї файлової структури директорії `./folder/a` у файл `file.snap`:
+- Зробити знімок усієї файлової структури директорії `./folder/a` у файл `file.snap`:
 ```
 python3 snap.py -m -d ./folder/a -f file.snap
 ```
