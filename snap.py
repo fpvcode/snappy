@@ -3,7 +3,7 @@ Module:         snap.py
 Description:    A tool to snapshot file structures into a single file and restore it.
 Author:         Andrii Burkatskyi aka andr11b
 Year:           2024
-Version:        1.0.0.241017
+Version:        1.0.0.241022
 License:        MIT License
 Email:          fpvcode@gmail.com
 Link:           https://github.com/fpvcode/snappy
@@ -139,7 +139,7 @@ def unsnap(snap_file, output_dir, strict_mode=True):
         print(f"Error while unsnap file structure: {e}")
 
 
-def list_snap(snap_file):
+def lssnap(snap_file):
     """List directories and files stored in snap-structure"""
 
     try:
@@ -191,7 +191,7 @@ def main():
     args = parser.parse_args()
 
     if args.l:
-        list_snap(args.l)
+        lssnap(args.l)
         sys.exit(0)
 
     if not args.m and not args.u:
