@@ -44,5 +44,7 @@ def test_snap_and_unsnap(setup_test_dirs):
 
     # Check the hashes of the restored files
     assert hash(os.path.join(output_dir, "test_file.txt")) == hash(os.path.join(input_dir, "test_file.txt"))
-    assert hash(os.path.join(output_dir, "subdir", "nested_file.txt")) == hash(
-        os.path.join(input_dir, "subdir", "nested_file.txt"))
+    assert (
+        hash(os.path.join(output_dir, "subdir",
+        "nested_file.txt")) == hash(os.path.join(input_dir, "subdir", "nested_file.txt"))
+    )
