@@ -1,6 +1,6 @@
 """
-Module:         snap.py
-Description:    A tool to snapshot file structures into a single file and restore it.
+Module:         SnapPy
+Description:    A tool to taking snapshots of a file structure into a single file.
 Author:         Andrii Burkatskyi aka andr11b
 Year:           2024
 Version:        1.0.0.241022

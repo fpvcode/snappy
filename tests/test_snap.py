@@ -1,6 +1,6 @@
 import os
 import pytest
-from bin.snap import mksnap, unsnap, hash  # Додано імпорт хешу
+from bin.snap import mksnap, unsnap, hash
 
 
 @pytest.fixture
