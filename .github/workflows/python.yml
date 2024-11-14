@@ -15,6 +15,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        # Check the code after the fictitious merge
+        ref: refs/pull/${{ github.event.pull_request.number }}/merge
 
     - name: Set up Python
       uses: actions/setup-python@v2
