@@ -5,7 +5,7 @@ Author:         Andrii Burkatskyi aka andr11b
 Year:           2024
 Version:        1.0.0.241022
 License:        MIT License
-Email:          fpvcode@gmail.com
+Email:          fpvcode@gmail.com, andr11b@ukr.net
 Link:           https://github.com/fpvcode/snappy
 """
 
